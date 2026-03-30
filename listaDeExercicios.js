@@ -5,6 +5,10 @@
 // Crie uma variável chamada name (nome) e atribua a ela o seu nome (string).
 // Crie uma variável chamada age (idade) e atribua a ela sua idade (number).
 // Crie uma variável chamada isStudent (éEstudante) e atribua true (boolean).
+let name = "Rafael"
+let age = 16
+let isStudent = true
+
 
 
 
@@ -21,8 +25,9 @@
 // typeAge (tipoIdade)
 // typeIsStudent (tipoEstudante)
 
-
-
+let typeName = typeof name
+let typeAge = typeof age
+let typeIsStudent = typeof isStudent
 
 // =========================
 // EXERCÍCIO 3 - CONVERSÃO DE TIPOS
@@ -36,7 +41,9 @@
 // Depois, converta de volta para string
 // e armazene em backToString (numeroDeNovoString).
 
-
+let numberString = "100"
+let convertedNumber = Number(numberString)
+let backToString = convertedNumber.toString()
 
 
 // =========================
@@ -52,8 +59,10 @@
 // subtraction (subtracao) → diferença entre os números
 // multiplication (multiplicacao) → multiplicação
 // division (divisao) → divisão
+let firstNumber = 8
+let secondNumber = 4
 
-
+console.log(firstNumber = secondNumber, firstNumber - secondNumber, firstNumber * secondNumber, firstNumber / secondNumber)
 
 
 // =========================
@@ -68,6 +77,7 @@
 //
 // IMPORTANTE:
 // - Use parênteses para garantir que a soma aconteça primeiro
+let result1 = (10 + 5) * 2
 
 
 
@@ -82,8 +92,7 @@
 // 1. Multiplique 5 por 2
 // 2. Depois some 10 ao resultado
 
-
-
+let result2 (5 * 2) + 10
 
 // =========================
 // EXERCÍCIO 7 - MONTANDO EXPRESSÃO 3
@@ -97,8 +106,7 @@
 // 3. Some os resultados dessas duas operações
 // 4. Subtraia 6 do resultado final
 // 
-
-
+let result3 = (20 / 4) + (3 * 2) - 6 
 
 
 
@@ -117,7 +125,7 @@
 //    - multiplicar 5 por (2 + 3)
 //
 
-
+let result4 = ((10 + 2) * ( 3 + 1) / (2+2)) - (5 * (2 + 3)) 
 
 
 // =========================
@@ -136,8 +144,14 @@
 // isLess (éMenor) → verificar se x é menor que y
 // isGreaterOrEqual (éMaiorOuIgual) → verificar se x é maior ou igual a y
 // isLessOrEqual (éMenorOuIgual) → verificar se x é menor ou igual a y
-
-
+let x = 15
+let y = 10
+let isEqual = x == y
+let isDifferent = x != y
+let isGreater = x > y
+let isLess = x < y
+let isGreaterOrEqual = x >= y
+let is isLessOrEqual = x <= y
 
 
 // =========================
@@ -158,9 +172,9 @@
 //
 // canEnterParty (podeEntrarFesta)
 // → deve ser verdadeiro se a pessoa for adulta OU tiver carteira
-
-
-
+let isAdult = true
+let hasLicense = false
+let canDrive = false
 
 // =========================
 // EXERCÍCIO 11 - DESAFIO FINAL (TUDO JUNTO)
